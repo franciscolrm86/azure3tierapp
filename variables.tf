@@ -22,3 +22,10 @@ variable "db_admin_username"{
 variable "db_admin_password"{
   type=string
 }
+
+variable "name"{
+  type=string
+}
+variable "location"{
+  type=string
+}

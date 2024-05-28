@@ -2,6 +2,6 @@
 resource "azurerm_virtual_network" "vnet" {
   name                = "myVNet"
   address_space       = ["10.0.0.0/16"]
-  location            = azurerm_resource_group.francisco_rg.location
-  resource_group_name = azurerm_resource_group.francisco_rg.name
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
 }
